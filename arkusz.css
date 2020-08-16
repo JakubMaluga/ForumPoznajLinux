@@ -1,0 +1,109 @@
+body
+{
+    background-color: gray;
+    font-family: 'Lato', sans-serif;
+}
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#logo
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+}
+#menu{
+    margin-top: 20px;
+    padding:10px;
+    color: #ffffff;
+    background-color: #303030;
+    height: 45px;
+}
+#topbar
+{
+    background-color: #128870;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 170px;
+}
+#topbarL
+{
+    width: 138px;
+    float: left;
+    padding:20px;
+    text-align: justify;
+    border-right: 2px dotted #cccccc;
+}
+#topbarR
+{
+    margin-left: 5px;
+    width: 760px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 16;
+}
+#sidebar
+{
+    float: left;
+    width: 148px;
+    min-height: 620px;
+    background-color: lightgray;
+    font-size: 18px;
+    border-right: 2px dotted #666666;
+    text-align: center;
+    padding: 20px;
+}
+#content
+{
+    float: left;
+    width: 730px;
+    min-height: 580px;
+    padding:40px;
+    background:#dedede;
+}
+#footer{
+  text-align: center;
+  font-size: 16px;
+}
+.bigtitle
+{
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.menu
+{
+    float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+}
+.menu:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.menuS
+{
+	font-size:18px;
+	height:25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.menuS:hover
+{
+	background-color: #f36742;
+	color: white;
+	cursor: pointer;
+}
